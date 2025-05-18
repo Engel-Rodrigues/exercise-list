@@ -5,7 +5,7 @@ let prompt = require("prompt-sync")()
 let somador = 0
 let contador = 0
 
-let numero = prompt("Digite um número (Digite 0 para encerrar")
+let numero = parseFloat(prompt("Digite um número (Digite 0 para encerrar"))
 
 while(numero != 0) {
     somador += numero
